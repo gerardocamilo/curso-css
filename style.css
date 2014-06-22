@@ -1,0 +1,34 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.top {
+	width: 100%;
+	
+	background: #3498db;
+}
+.top .login {
+	height: 35px;
+	/*border:1px solid green;*/
+	width: 250px;
+	float: right;
+	color: red;
+}
+.login {
+	color: black;
+}
+.top .social-network {
+	width: 250px;
+	float: right;
+	height: 35px;
+	/*border:1px solid green;	*/
+	margin-right: 10px; 
+}
+.container {
+	/*border:1px solid red;*/
+	margin: 0 auto;
+	width: 1024px;
+}
+.clearfix {
+	clear: both;
+}
