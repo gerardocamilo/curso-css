@@ -32,3 +32,38 @@ body {
 .clearfix {
 	clear: both;
 }
+
+.header-section .container .banner {
+	height: 35px;
+	width: 250px;
+	/*border: 1px solid red; Not Required*/
+	float: right;
+	margin-left: 10px;
+}
+
+.header-section .container .logo {
+	height: 35px;
+	width: 250px;
+	/*border-style: solid;
+	border-color: blue;*/
+	float: right;	
+}
+
+.header-section .container .publicar-anuncio {
+	height: 35px;
+	width: 250px;
+	float: right;
+	margin-left: 10px;
+}
+
+.header-section .container .search {
+	height: 35px;
+	width: 250px;
+	float: right;
+}
+
+
+
+
+
+
