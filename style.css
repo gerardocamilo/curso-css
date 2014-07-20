@@ -33,7 +33,7 @@ body {
 	clear: both;
 }
 
-.header-section .container .banner {
+.header-section .container .header .banner {
 	height: 35px;
 	width: 250px;
 	/*border: 1px solid red; Not Required*/
@@ -41,7 +41,7 @@ body {
 	margin-left: 10px;
 }
 
-.header-section .container .logo {
+.header-section .container .header .logo {
 	height: 35px;
 	width: 250px;
 	/*border-style: solid;
@@ -49,20 +49,64 @@ body {
 	float: right;	
 }
 
-.header-section .container .publicar-anuncio {
+.header-section .container .menu .publicar-anuncio {
 	height: 35px;
 	width: 250px;
 	float: right;
 	margin-left: 10px;
 }
 
-.header-section .container .search {
+.header-section .container .menu .search {
 	height: 35px;
 	width: 250px;
 	float: right;
 }
+.content > .container > .premium-post {
+	width: 60%;
+	float: left;
+}
+.content > .container > .second-container {
+	float: right;
+	width: 37%;
+}
+.content > .container > .second-container .banner {
+	height: 200px;
+	margin-bottom: 10px;
+}
+.content > .container > .second-container .banner .banner-350x200 {
+	width: 60%;
+	border: 1px solid black;
+	height: 100%;
+	float: left;
+}
+.content > .container > .second-container .banner .banner-165x250 {
+	width: 38%;
+	height: 100%;
+	float: right;
+	border: 1px solid black;	
+}
+.box {
 
-
+}
+.box .box-header {
+	height: 20px;
+	background-color: #3498db;
+	padding: 10px;	
+}
+.box .box-header.orange {
+	background-color:#e07314;
+}
+.box .box-header h3 {
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-weight: bold;
+}
+.box .box-content {
+	border: 1px solid #c6c6c6;
+	padding: 10px;
+	height: 100px;
+}
 
 
 
