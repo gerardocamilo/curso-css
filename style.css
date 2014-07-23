@@ -108,6 +108,8 @@ body {
 	height: 100px;
 }
 
-
-
+.box .box-content .premium-article .article-image {
+	height: 100px;
+	width: 100px;
+}
 
