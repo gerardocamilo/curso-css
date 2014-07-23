@@ -61,7 +61,7 @@ body {
 	width: 250px;
 	float: right;
 }
-.content > .container > .premium-post {
+.content > .container > .premium-posts {
 	width: 60%;
 	float: left;
 }
@@ -108,8 +108,23 @@ body {
 	height: 100px;
 }
 
-.box .box-content .premium-article .article-image {
-	height: 100px;
-	width: 100px;
+.box .box-content .post .post-image {
+	/*height: 100%;
+	width: 30%;
+	/*max-width:100%; */
+	/*max-height:100%;*/
 }
 
+.box .box-content .post{
+	/*height: 100%;*/
+	width: 21%;
+	border: 1px black solid;
+	float: left;
+	margin-right: 30px;
+}
+
+
+
+.box .box-content .post-text{
+	/*...............*/
+}
